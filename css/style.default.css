@@ -31,6 +31,13 @@
   padding: 1px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 /* ---------------- خاص بالتمبليت الأصلي ----------------------------------------------------------------------------------*/
 section {
@@ -176,6 +183,8 @@ section {
   width: 6.25rem;
   height: 1px;
   margin: 1.25rem auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
   background: #4fbfa8;
 }
 
@@ -1025,7 +1034,7 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: "cardo", sans-serif;
+  font-family: Cairo', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1929,7 +1938,7 @@ code {
 */
 .card {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #403e41c7;
   border-radius: 0.25rem;
 }
 
@@ -1944,7 +1953,7 @@ code {
 }
 
 .card-body {
-  padding: 1.25rem;
+  padding: 0.9rem;
 }
 
 .card-title {
