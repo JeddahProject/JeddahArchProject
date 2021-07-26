@@ -26,7 +26,7 @@ h1 {
 
 /* مربع ( حدث بتاريخ )*/
 table2, p2 {
-  background-color: #ffffff;
+  background-color: #205b2d8f;
   border-collapse: collapse;
   direction: rtl;
 }
@@ -38,7 +38,7 @@ p2 {
   bottom: 8px;
   right: 16px;
   font-size: 18px;
-  color: #116530;
+  color: #ffffff;
 }
 
 /* Radial Bar Charts Multiple*/
@@ -237,7 +237,7 @@ section {
   margin: 1.25rem auto;
   margin-top: 0.5rem;
   margin-bottom: 0rem;
-  background: #4fbfa8;
+  background: #116530;
 }
 
 .lined-compact::after {
