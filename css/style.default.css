@@ -18,9 +18,15 @@
   background-color: #4ca1af;
   background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
 } */
+/* ابراز العنوان*/
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #116530, 0 0 5px darkblue;
+}
+
 /* مربع ( حدث بتاريخ )*/
 table2, p2 {
-  background-color: #124d39be;
+  background-color: #ffffff;
   border-collapse: collapse;
   direction: rtl;
 }
@@ -32,7 +38,14 @@ p2 {
   bottom: 8px;
   right: 16px;
   font-size: 18px;
-  color: #ffffff;
+  color: #116530;
+}
+
+/* Radial Bar Charts Multiple*/
+#chart {
+  padding: 0;
+  max-width: 650px;
+  margin: 35px auto;
 }
 
 /* لجداول ( الصرف والزمنية )*/
@@ -74,7 +87,9 @@ th, td {
   width: 50%;
 }
 
-
+.mySlides {
+  display:none;
+}
 /* ---------------- خاص بالتمبليت الأصلي ----------------------------------------------------------------------------------*/
 section {
   position: relative;
@@ -154,6 +169,7 @@ section {
   background-position: center center !important;
 }
 
+
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -165,7 +181,7 @@ section {
 }
 
 .text-uppercase {
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
 }
 
 .bg-gray {
@@ -1110,7 +1126,7 @@ h6,
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h2,
@@ -1312,6 +1328,11 @@ button.bg-secondary:focus {
   background-color: #28a745 !important;
 }
 
+.bg2-success {
+  background-color: #1ea398 !important;
+}
+
+
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
@@ -1361,6 +1382,7 @@ button.bg-light:focus {
 .bg-dark {
   background-color: #343a40 !important;
 }
+
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
