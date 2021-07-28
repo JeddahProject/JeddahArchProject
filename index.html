@@ -1224,24 +1224,27 @@ border-radius: 8px; will-change: transform;">
                   <img class="sh-standard-logo" src="https://www.acs.com.sa/wp-content/uploads/2020/06/acs_logo_may.png" alt="ACS | Arabic Computer System" width="350" height="125">
                 </div>
               
-              <div class="col-lg-6 text-center text-lg-right" style="direction: rtl">
+              <div  style="direction: rtl">
                 <form action="" class="contact-form">
-                  <div class="row">
-                    <div class="form-group col-lg-6">
-                      
-                      <input id="firstName" type="text" name="firstname" placeholder="الاسم الثلاثي *" class="form-control">
-                   
-                      
-                      <input id="email" type="email" name="email" placeholder="البريد الإلكتروني *" class="form-control">
+                  <form
+                  action="https://formspree.io/f/mleapddp"
+                  method="POST"
+                >
+                  <label>
+                    الايميل:
+                    <input type="email" name="_replyto">
+                  </label>
+                  <br></br>
+                  <label>
+                    الرسالة:
+                    <textarea name="message"></textarea>
                     
-                    </div>
-                    <div class="form-group col-lg-12">
-                      <textarea id="message" name="message" placeholder="رسالتك لنا *" class="form-control"></textarea>
-                    </div>
-                    <div class="form-group col-lg-12">
-                      <button type="submit" class="btn btn-outline-primary w-100">إرسال</button>
-                    </div>
-                  </div>
+                  </label>
+                  <br></br>
+                  <!-- your other form fields go here -->
+                
+                  <button type="submit">ارسال</button>
+                </form>
                 </form>
               </div>
               
