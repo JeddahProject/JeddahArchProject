@@ -29,7 +29,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 320px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
@@ -107,6 +107,12 @@ h1 {
   text-shadow: 1px 1px 2px black, 0 0 25px #116530, 0 0 5px darkblue;
 }
 
+/*.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}*/
 /* مربع ( حدث بتاريخ )*/
 table2, p2 {
   background-color: #205b2d8f;
@@ -116,13 +122,15 @@ table2, p2 {
 p2 {
   padding: 10px;
 }
-.bottomright {
+.bottomleft {
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  left: 16px;
   font-size: 18px;
   color: #ffffff;
 }
+
+
 
 /* Radial Bar Charts Multiple*/
 #chart {
@@ -177,7 +185,7 @@ section {
 }
 
 .hero {
-  background: url(../img/amana.jpg);
+  background: url(../img/ama-UPD.jpg);
   min-height: 100vh;
   display: -ms-flexbox;
   display: flex;
@@ -1421,7 +1429,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #1ea398 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,

@@ -1,0 +1,37 @@
+<!-- تواصل معنا contact us----------------------------------------------------------------------------------------------------------------->
+<!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xqkwyaed",
+    title: "يسعدنا خدمتك",
+    fields: [
+      { 
+        type: "email", 
+        label: ": البريد الإلكتروني", 
+        name: "email",
+        required: true,
+        placeholder: "your@jeddah.gov.sa"
+      },
+      {
+        type: "textarea",
+        label: ": الرسالة",
+        name: "message",
+        placeholder: "رسالتك لنا",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#205b2d8f"
+      },
+      button: {
+        backgroundColor: "#205b2d"
+      }
+    }
+  });
+</script>
