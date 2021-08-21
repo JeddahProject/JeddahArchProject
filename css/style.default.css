@@ -18,6 +18,12 @@
   background-color: #4ca1af;
   background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
 } */
+
+.apexcharts-legend-text {
+  padding: 6px 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
 /* testing----------------------------------------------------------------------------------------------------------------*/
 .mySlides {
   display: none;
