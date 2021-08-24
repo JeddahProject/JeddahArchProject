@@ -175,9 +175,38 @@ th, td {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 80%;
 }
 
+/* صور نسبة متوسط الانجازات --------------------------------------------------------------------------------------------------*/
+.picweek {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+.column2 {
+  float: left;
+  width: 22.22%;
+  
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column2 {
+    width: 100%;
+  }
+}
 /* ---------------- خاص بالتمبليت الأصلي ----------------------------------------------------------------------------------*/
 section {
   position: relative;
@@ -1230,7 +1259,7 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.5rem;
+  font-size: 2.3rem;
 }
 
 h5,
