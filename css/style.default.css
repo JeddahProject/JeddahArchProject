@@ -145,7 +145,7 @@ table {
   direction: rtl;
 }
 /*لون الاصفر لجدول الخطة الزمنية للمشروع*/
-.yelloBG {
+.yelloBG2 {
   background-color: rgb(255, 255, 47);
 }
 
@@ -1449,11 +1449,19 @@ button.bg-secondary:focus {
 
 .bg-success {
   background-color: #28a745 !important;
+  border:2px solid #1b7a31;
+}
+
+.yelloBG {
+  background-color: #bfbfa4;
+  border:2px solid #1b7a31;
+
 }
 
 .bg2-success {
   background-color: #1ea398 !important;
 }
+
 
 
 a.bg-success:hover, a.bg-success:focus,
@@ -1463,7 +1471,13 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #1ea398 !important;
+  background-color: #74e27a !important;
+  border:2px solid #61bd66;
+}
+
+.bg-info2 {
+  background-color: #bfbfa4 !important;
+  border:2px solid #61bd66;
 }
 
 a.bg-info:hover, a.bg-info:focus,
