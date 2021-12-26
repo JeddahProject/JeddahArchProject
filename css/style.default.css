@@ -1471,13 +1471,13 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #74e27a !important;
-  border:2px solid #61bd66;
+  background-color: #77D8BA !important;
+  border: 2px solid #59a48d;
 }
 
 .bg-info2 {
   background-color: #bfbfa4 !important;
-  border:2px solid #61bd66;
+  border:2px solid #59a48d;
 }
 
 a.bg-info:hover, a.bg-info:focus,
