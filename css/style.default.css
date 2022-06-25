@@ -104,13 +104,13 @@ img {
 /* ابراز العنوان*/
 h1 {
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px #116530, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #3A346A, 0 0 5px darkblue;
 }
 
 /* ابراز العنوان*/
 h7 {
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px #116530, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px #3A346A, 0 0 5px darkblue;
 }
 
 /*.topright {
@@ -121,7 +121,7 @@ h7 {
 }*/
 /* مربع ( حدث بتاريخ )*/
 table2, p2 {
-  background-color: #205b2d8f;
+  background-color: #3a346a77;
   border-collapse: collapse;
   direction: rtl;
 }
@@ -365,7 +365,7 @@ section2 {
   margin: 1.25rem auto;
   margin-top: 0.5rem;
   margin-bottom: 0rem;
-  background: #116530;
+  background: #3A346A;
 }
 
 .lined-compact::after {
@@ -1461,13 +1461,13 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #28a745 !important;
-  border:2px solid #1b7a31;
+  background-color: #3a346ad4  !important;
+  border:2px solid #3a346a;
 }
 
 .yelloBG {
   background-color: #bfbfa4;
-  border:2px solid #1b7a31;
+  border:2px solid #3a346a;
 
 }
 
@@ -1589,7 +1589,7 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .text-success {
-  color: #116530 !important;
+  color: #3a346a !important;
 }
 
 a.text-success:hover, a.text-success:focus {
