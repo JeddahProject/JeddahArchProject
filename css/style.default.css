@@ -425,8 +425,9 @@ section2 {
   }
   html,
   body {
-    background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #f28e6f73,#e7609473, #5abbde73, #4ddbba73);
     background-size: 400% 400%;
+  
     -webkit-animation: gradient 15s ease infinite;
             animation: gradient 15s ease infinite;
   }
