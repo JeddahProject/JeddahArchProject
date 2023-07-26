@@ -1294,16 +1294,19 @@ h1,
 
 h2,
 .h2 {
+  font-family:Helvetica Neue LT Arabic;
   font-size: 2.3rem;
 }
 
 h3,
 .h3 {
+  font-family:Helvetica Neue LT Arabic;
   font-size: 1.9rem;
 }
 
 h4,
 .h4 {
+  font-family:Helvetica Neue LT Arabic;
   font-size: 2.3rem;
 }
 
@@ -1314,6 +1317,7 @@ h5,
 
 h6,
 .h6 {
+  font-family:Helvetica Neue LT Arabic;
   font-size: 1rem;
 }
 
